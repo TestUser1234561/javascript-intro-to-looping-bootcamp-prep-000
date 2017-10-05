@@ -23,6 +23,7 @@ function doWhileLoop(array) {
     delete array[i]
     i--
   } while(array.length > 0 && maybeTrue())
+  return array;
 }
 
 function maybeTrue() {
