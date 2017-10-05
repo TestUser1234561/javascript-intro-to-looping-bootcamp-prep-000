@@ -22,7 +22,7 @@ function doWhileLoop(array) {
   do {
     delete array[i]
     i--
-  } while(array.length > 0 && maybeTrue())
+  } while(array.length > 0)
   return array
 }
 
