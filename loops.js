@@ -18,7 +18,7 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
-  i = array.length + 2
+  i = array.length
   do {
     delete array[i]
     i--
